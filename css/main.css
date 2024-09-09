@@ -1,0 +1,45 @@
+html,body,*{
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper{
+    padding:0 !important;
+}
+
+.container-fluid:not(.navbar){
+    min-height: 100vh;
+}
+
+.top{
+    width: 100%;
+    min-height: 95vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.sidebar{
+    height: 100%;
+    background-color: red;
+}
+
+.header{
+    background-color: blue;
+}
+
+.footer{
+    width: 100%;
+}
+
+.main-content{
+    background-color: aqua;
+}
+
+.lf{
+  width: 15%; 
+}
+
+.rt{
+    width: 85%;
+}
+
